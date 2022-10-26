@@ -90,7 +90,7 @@ end
 
 fido = Dog.new
 fido.methods
-#=> [:psych_to_yaml, :to_yaml, :to_yaml_properties, :local_methods, :try, :nil?,
+# => [:psych_to_yaml, :to_yaml, :to_yaml_properties, :local_methods, :try, :nil?,
 # :===, :=~, :!~, :eql?, :hash, :<=>, :class, :singleton_class, :clone, :dup,
 # :itself, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :freeze,
 # :frozen?, :to_s, :inspect, :methods, :singleton_methods, :protected_methods,
